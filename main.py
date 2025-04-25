@@ -52,7 +52,7 @@ python timeline_forge.py reset /path/to/file --type ACCESSED
             </pre>
             
             <h2>Current Environment</h2>
-            <p>To explore Timeline Forge's capabilities, open a terminal in this Replit project
+            <p>To explore Timeline Forge's capabilities, open a terminal
             and try the examples shown above.</p>
             
             <h2>Advanced Features</h2>
