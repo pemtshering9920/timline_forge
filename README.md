@@ -44,7 +44,7 @@ Timeline Forge is a powerful, forensic-grade utility designed for programmatical
    cd timeline-forge
    ```
 
-2. Install dependencies:
+2. Install dependencies(N.A):
    ```
    pip install -r requirements.txt
    ```
@@ -57,54 +57,54 @@ Timeline Forge provides a command-line interface with multiple subcommands for d
 
 ```bash
 # Display help
-python timeline_forge.py --help
+python3 timeline_forge.py --help
 
 # Inspect metadata for a file
-python timeline_forge.py inspect /path/to/file
+python3 timeline_forge.py inspect /path/to/file
 
 # Modify a timestamp
-python timeline_forge.py modify /path/to/file --type MODIFIED --value "2023-01-15 08:30:00"
+python3 timeline_forge.py modify /path/to/file --type MODIFIED --value "2023-01-15 08:30:00"
 
 # Reset a timestamp to current time
-python timeline_forge.py reset /path/to/file --type ACCESSED
+python3 timeline_forge.py reset /path/to/file --type ACCESSED
 
 # Restore from backup
-python timeline_forge.py restore /path/to/file
+python3 timeline_forge.py restore /path/to/file
 ```
 
 ### NTFS-Specific Operations
 
 ```bash
 # View MFT record
-python timeline_forge.py ntfs mft /path/to/volume --record 5
+python3 timeline_forge.py ntfs mft /path/to/volume --record 5
 
 # Query USN Journal entries
-python timeline_forge.py ntfs usn /path/to/volume --entries 20
+python3 timeline_forge.py ntfs usn /path/to/volume --entries 20
 
 # View $LogFile information
-python timeline_forge.py ntfs logfile /path/to/volume
+python3 timeline_forge.py ntfs logfile /path/to/volume
 ```
 
 ### EXT4-Specific Operations
 
 ```bash
 # View inode details
-python timeline_forge.py ext4 inode /path/to/file --number 12345
+python3 timeline_forge.py ext4 inode /path/to/file --number 12345
 
 # View extended attributes
-python timeline_forge.py ext4 xattr /path/to/file
+python3 timeline_forge.py ext4 xattr /path/to/file
 
 # Set an extended attribute
-python timeline_forge.py ext4 xattr /path/to/file --set --name user.example --value test
+python3 timeline_forge.py ext4 xattr /path/to/file --set --name user.example --value test
 
 # View file flags
-python timeline_forge.py ext4 flags /path/to/file
+python3 timeline_forge.py ext4 flags /path/to/file
 
 # Set file flags
-python timeline_forge.py ext4 flags /path/to/file --set IMMUTABLE,NO_ATIME
+python3 timeline_forge.py ext4 flags /path/to/file --set IMMUTABLE,NO_ATIME
 
 # View journal entries
-python timeline_forge.py ext4 journal /path/to/volume --blocks 5
+python3 timeline_forge.py ext4 journal /path/to/volume --blocks 5
 ```
 
 ## Module Components
