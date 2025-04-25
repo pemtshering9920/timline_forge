@@ -1,0 +1,28 @@
+2025-04-25 05:47:03,152 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:03,154 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:03,156 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:03,160 - metadata_manipulator - INFO - Created backup at backups/test_file.txt.20250425054703.bak
+2025-04-25 05:47:12,469 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:12,470 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:12,471 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:12,484 - metadata_manipulator - INFO - Created backup at backups/test_file.txt.20250425054712.bak
+2025-04-25 05:47:17,905 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:17,906 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:17,907 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:17,914 - metadata_manipulator - INFO - Created backup at backups/test_file.txt.20250425054717.bak
+2025-04-25 05:47:27,424 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:27,428 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:27,430 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:32,043 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:32,045 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:32,045 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:36,987 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:36,989 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:36,990 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:37,049 - ext4_manipulator - INFO - Set extended attribute user.owner=forensic_analyst for test_file.txt
+2025-04-25 05:47:42,074 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:42,075 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:42,076 - __main__ - INFO - EXT4 support: Available
+2025-04-25 05:47:46,803 - __main__ - INFO - Running with elevated privileges: No
+2025-04-25 05:47:46,805 - __main__ - INFO - NTFS support: Available
+2025-04-25 05:47:46,805 - __main__ - INFO - EXT4 support: Available
