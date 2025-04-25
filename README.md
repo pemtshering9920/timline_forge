@@ -40,7 +40,7 @@ Timeline Forge is basic PoC (Proof Of Concept), forensic-grade utility designed 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/timeline-forge.git
+   git clone https://github.com/pemtshering9920/timline_forge.git
    cd timeline-forge
    ```
 
