@@ -2,7 +2,7 @@
 
 ## Advanced Metadata Manipulation Utility
 
-Timeline Forge is a powerful, forensic-grade utility designed for programmatically interacting with and modifying low-level system metadata associated with file and activity timelines. The tool is modular and supports manipulation of metadata on both NTFS and EXT4 filesystems, providing cross-platform compatibility for security researchers, digital forensics specialists, and red teams.
+Timeline Forge is basic PoC (Proof Of Concept), forensic-grade utility designed for programmatically interacting with and modifying low-level system metadata associated with file and activity timelines. The tool is modular and supports manipulation of metadata on both NTFS and EXT4 filesystems, providing cross-platform compatibility for security researchers, digital forensics specialists, and red teams.
 
 > **IMPORTANT**: This tool requires administrative/root privileges to perform many operations and should only be used in authorized testing environments or with explicit permission on systems you own. Improper use may result in filesystem corruption or data loss.
 
